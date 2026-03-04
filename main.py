@@ -1,23 +1,3 @@
-#!/usr/bin/env python3
-"""
-mirror_commits.py
-
-Scans local work repos for your commits and mirrors them as empty commits
-into a personal GitHub repo to populate your contribution graph.
-
-Usage:
-    python mirror_commits.py \
-        --work-dir ~/work \
-        --mirror-dir ~/personal/contribution-mirror \
-        --email you@company.com
-
-The mirror repo must already exist locally and be connected to your personal
-GitHub remote. Create it once with:
-    mkdir -p ~/personal/contribution-mirror && cd $_
-    git init && git remote add origin git@github.com:YOU/contribution-mirror.git
-    git commit --allow-empty -m "init" && git push -u origin HEAD
-"""
-
 import argparse
 import sqlite3
 import subprocess

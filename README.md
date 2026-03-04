@@ -5,11 +5,13 @@ The mirror repo must already exist locally and be connected to your personal Git
 
 ## Usage
 
+```bash
 python main.py \
     --work-dir ~/dev/work \
     --mirror-dir ~/dev/contribution-mirror \
     --email you@company.com \
     --message "work"
+```
 
 ## Options
 
