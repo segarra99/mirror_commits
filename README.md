@@ -15,9 +15,11 @@ python main.py \
 
 ## Options
 
+```bash
 --work-dir   Path to directory containing your work repos
 --mirror-dir Path to the local mirror repo
 --email      Your work git commit email
 --message    Commit message for mirror commits
 --dry-run    Preview commits without writing anything
 --no-push    Commit locally but skip the push
+```
